@@ -1,0 +1,96 @@
+/* 전체 배경 및 기본 폰트 설정 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; /* 연한 아이보리색 */
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 가로 방향으로 가운데 정렬 */
+    justify-content: center; /* 세로 방향으로 가운데 정렬 */
+    height: 100vh; /* 화면 전체 높이를 채우기 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+/* 콘텐츠 여백 */
+.content {
+    padding: 50px;
+    text-align: center; /* 콘텐츠 내 텍스트 가운데 정렬 */
+}
+
+/* 링크 스타일 - 붉은 갈색 */
+a {
+    color: #8B4513; /* SaddleBrown */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* 네비게이션 바 */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+main h2 {
+    font-size: 2em;
+    margin: 1em 0 0.5em;
+}
+
+main p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+/* 폼 스타일 */
+form input, form textarea, form button {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
